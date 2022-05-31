@@ -1,0 +1,33 @@
+Quanyan Zhu', Stefan Rass, Peter Schartner,
+Chapter 2 - Community-Based Security for the Internet of Things,
+Editor(s): Danda B. Rawat, Kayhan Zrar Ghafoor,
+Smart Cities Cybersecurity and Privacy,
+Elsevier,
+2019,
+Pages 11-19,
+ISBN 9780128150320,
+https://doi.org/10.1016/B978-0-12-815032-0.00002-0.
+(https://www.sciencedirect.com/science/article/pii/B9780128150320000020)
+Keywords: Collaborative systems; Smart communities; Trust management; Mechanism design; Applied cryptography
+
+LIN --- Comparision Image:
+B.T. Fijalkowski, Automotive Mechatronics: Operational and Practical Issues, Intelligent Systems, Control and Automation: Science and Engineering 47,Page 57
+DOI 10.1007/978-94-007-0409-1_5, © Springer Science+Business Media B.V. 2011
+
+
+
+
+
+
+Book:
+
+@misc{noauthor_lin_nodate,
+	title = {{LIN} {Bus} {Explained} - {A} {Simple} {Intro} [2022 {\textbar} {The} \#1 {Tutorial}]},
+	url = {https://www.csselectronics.com/pages/lin-bus-protocol-intro-basics},
+	abstract = {LIN bus tutorial: In this intro you'll learn the LIN protocol basics, master/slave LIN communication, LIN frames, LDF vs. DBC - and LIN signal data logging},
+	language = {en},
+	urldate = {2022-04-28},
+	journal = {CSS Electronics},
+}
+
+
