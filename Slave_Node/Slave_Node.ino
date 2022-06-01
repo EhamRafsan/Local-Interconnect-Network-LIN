@@ -3,7 +3,7 @@
 #include <AltSoftSerial.h>
 
 
-#define DEBUG_MODE_MAIN (2) // 0 no debug, 1 debug pin, 2 add basic serial, 3 extended serial
+#define DEBUG_MODE_MAIN (2) 
 #define DEBUG_SERIAL_BAUD_RATE (19200)
 
 #define NODE_ID   ("HW UART LIN Slave Node 1")
