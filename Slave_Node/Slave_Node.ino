@@ -1,7 +1,7 @@
 #include "JRLinSlave.h"
 #include "JRLinFrameBuffer.h"
 #include <AltSoftSerial.h>
-// Receives but does not react
+
 
 #define DEBUG_MODE_MAIN (2) // 0 no debug, 1 debug pin, 2 add basic serial, 3 extended serial
 #define DEBUG_SERIAL_BAUD_RATE (19200)
@@ -57,7 +57,6 @@ void setup() {
   lin.config(LIN_BAUD_RATE, &altSerial);
 framelist[0].init(0x30, fb_id_receive, 4);
 
-//  //Network communication configuration starts here
 //  framelist[0].init(0x27, fb_id_receive, 8);
 //  framelist[1].init(0x30, fb_id_receive, 4);
 //
@@ -79,7 +78,7 @@ framelist[0].init(0x30, fb_id_receive, 4);
 
 void loop()
 {
-  // one break has to have occured, compute() time vs frame parse/protocol time
+ 
   if (lin.breakSymbol != valid) {
     compute();
     return;
