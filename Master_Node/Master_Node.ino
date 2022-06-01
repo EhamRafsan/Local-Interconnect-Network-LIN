@@ -7,7 +7,7 @@
 
 /**PINS */
 #define FAULT_PIN (8)
-#define CS_PIN (7) // not recommended to be hardwired in schematic; operation mode of transceiver needs to be in synch with the micro-controller; hardwiring could lead to false LIN traffic during startup
+#define CS_PIN (7) 
 #define ONBOARD_LED (13)
 #define BUTTON_PIN (4)
 
@@ -72,15 +72,13 @@ void setup() {
   lin.setFrameList(framelist, SCHEDULE_ENTRIES);
   ptrCurrentFrame = NULL;
 
-  /**
-     Configure timeouts
+  /*
+      Timeouts
   */
   delayStart = millis();   // start delay
   timerRunning = true; // start or stop the time checking
 
-  /**
-     Configure State Machine and Schedule table
-  */
+ 
   masterState = sendId;
 
   // Start the LIN machine
